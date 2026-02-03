@@ -14,7 +14,7 @@ Saat menjelajahi endpoint `http://192.168.5.132:3000/ftp`, saya menemukan bebera
 - `coupons_2013.md.bak`
 - `package.json.bak`
   
-![Isi folder FTP](ftp.png)
+![Isi folder FTP](./Media/ftp.png)
 
 Dari keberadaan file `incident-support.kdbx`, saya menduga sistem memiliki direktori atau akses khusus untuk tim support. Dalam banyak sistem, tim support sering punya direktori sendiri, dan file log biasanya disimpan di subfolder bernama `logs` atau `log`.
 
@@ -23,8 +23,8 @@ Saya mencoba menebak path umum:
 
 ---
 ### Solution
-![search bar](search.png)
-1. Buka browser dan akses: [http://ip:port/support/logs](http://ip:port/support/logs)
+![Search bar](./Media/search.png)
+1. Buka browser dan akses: http://ip:port/support/logs
 
 ![Folder support/logs](./Media/logs.png)
 2. Akan muncul dua file:
@@ -33,7 +33,7 @@ Saya mencoba menebak path umum:
 
 3. Klik file `access.log.2026-02-03`
 
-![accesslogs](accesslogs.png)
+![accesslogs](./Media/accesslogs.png)
 4. File akan menampilkan isi log kunjungan admin:
 
 Contoh log:
@@ -44,4 +44,4 @@ GET /rest/admin/application-configuration
 5. Setelah file log terbuka, challenge otomatis dianggap selesai.
 ---
 ### Flag:
-![flag](flag.png)
+![flag](./Media/flag.png)
