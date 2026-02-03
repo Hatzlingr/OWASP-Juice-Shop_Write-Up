@@ -19,7 +19,7 @@ Saat menjelajahi endpoint `http://192.168.5.132:3000/ftp`, saya menemukan bebera
 Dari keberadaan file `incident-support.kdbx`, saya menduga sistem memiliki direktori atau akses khusus untuk tim support. Dalam banyak sistem, tim support sering punya direktori sendiri, dan file log biasanya disimpan di subfolder bernama `logs` atau `log`.
 
 Saya mencoba menebak path umum:
-[http://192.168.5.132:3000/support/logs](http://192.168.5.132:3000/support/log)
+http://192.168.5.132:3000/support/log
 
 ---
 ### Solution
