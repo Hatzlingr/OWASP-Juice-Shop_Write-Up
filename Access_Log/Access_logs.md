@@ -26,7 +26,7 @@ Saya mencoba menebak path umum:
 ![search bar](search.png)
 1. Buka browser dan akses: [http://ip:port/support/logs](http://ip:port/support/logs)
 
-![Folder support/logs](./media/logs.png)
+![Folder support/logs](./Media/logs.png)
 2. Akan muncul dua file:
 - `access.log.2026-02-03`
 - `audit.json`
