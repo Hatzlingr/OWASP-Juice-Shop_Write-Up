@@ -37,4 +37,4 @@ Analisis kami terhadap endpoint `/api/Users/` menemukan adanya ketidaksesuaian a
 
 ### Flag:
 
-![flag](./6.png.png)
+![flag](./6.png)
