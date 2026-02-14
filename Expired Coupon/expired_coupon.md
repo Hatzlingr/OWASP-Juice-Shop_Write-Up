@@ -1,4 +1,5 @@
 ## Challenge 4: Expired Coupon
+Category: Improper Input Validation
 
 ### Description:
 
