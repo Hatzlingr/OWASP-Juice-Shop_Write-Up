@@ -1,4 +1,5 @@
 ## Challenge 3: Access Log
+Category: Sensitive Data Exposure
 
 ### Description:
 Sang Juru Tulis menyembunyikan buku catatan pengunjung di tempat yang ia anggap aman, namun kini ia lupa label apa yang ia tempelkan padanya. Catatan itu tidak diberi penanda khusus dan mengikuti kebiasaan penamaan yang sudah lama digunakan. Perhatikanlah bagaimana arsip disimpan dan diakses untuk menemukannya.
