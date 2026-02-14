@@ -1,4 +1,5 @@
 ## Challenge 1: Empty Registration
+Category: Improper Input Validation
 
 ### Description:
 
