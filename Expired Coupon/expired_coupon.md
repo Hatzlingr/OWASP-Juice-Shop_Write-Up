@@ -28,15 +28,7 @@ Selanjutnya dianalisis fungsi `applyCoupon()` pada `main.js`. Terlihat bahwa ket
 
 Ringkasnya:
 
-- Aplikasi mengambil waktu dari perangkat client (`new Date`).
-    
-- Jam dipaksa menjadi awal hari (`setHours(0,0,0,0)`), lalu dikonversi menjadi timestamp dan dilakukan penyesuaian offset.
-    
-- Kupon campaign dianggap valid hanya jika:
-    
-    - `clientDate === validOn`
-        
-- Jika tidak sama, muncul pesan `INVALID_COUPON`.
+Di main.js, fungsi applyCoupon() mengambil waktu dari perangkat (new Date). Namun sebelum validasi, waktunya dipaksa menjadi awal hari dengan setHours(0,0,0,0), sehingga jam/menit/detik diabaikan. Setelah itu nilainya diubah jadi timestamp dan dibandingkan harus sama persis dengan validOn (clientDate === o.validOn). Karena yang dibandingkan adalah timestamp “awal hari”, maka yang menentukan valid/tidaknya kupon hanya tanggalnya (harinya), bukan jam tertentu.
     
 
 Kesimpulan:
